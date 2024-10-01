@@ -1,0 +1,23 @@
+html[data-prefers-mode='dark'] {
+  --hue-background: 0, 0%;
+  --hue-foreground: 0, 0%;
+  --hsl-background: var(--hue-background), 08%;
+  --hsl-foreground: var(--hue-foreground), 99%;
+}
+
+html[data-prefers-mode='light'] {
+  --hue-background: 0, 0%;
+  --hue-foreground: 0, 0%;
+  --hsl-background: var(--hue-background), 99%;
+  --hsl-foreground: var(--hue-foreground), 08%;
+}
+
+html[data-prefers-mode='dark'],
+html[data-prefers-mode='light'] {
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, border-color, color, stroke, fill, outline;
+  transition-duration: 600ms;
+
+  background-color: hsl(var(--hsl-background));
+  color: hsl(var(--hsl-foreground));
+}

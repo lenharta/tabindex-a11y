@@ -21,3 +21,16 @@ html[data-prefers-mode='light'] {
   background-color: hsl(var(--hsl-background));
   color: hsl(var(--hsl-foreground));
 }
+
+.tbx-header {
+  color: hsla(var(--hsl-foreground), 0.87);
+  background-color: hsla(var(--hsl-background), 0.8);
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, border-color, color, stroke, fill, outline;
+  transition-duration: 600ms;
+
+  [data-prefers-color-mode='light'] & {
+    color: hsla(var(--hsl-foreground), 0.87);
+    background-color: hsla(var(--hsl-background), 0.8);
+  }
+}

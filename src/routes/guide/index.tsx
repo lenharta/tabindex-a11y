@@ -1,8 +1,12 @@
+import { Hero, Page } from '@/layout';
+
 export const Guide: React.FC<{}> = (props) => {
   return (
-    <div {...props}>
-      <h1>Guide</h1>
-    </div>
+    <Page {...props}>
+      <Hero>
+        <h1>Guide</h1>
+      </Hero>
+    </Page>
   );
 };
 

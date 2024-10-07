@@ -1,0 +1,8 @@
+.tbx-hero {
+  display: grid;
+  min-height: 25vh;
+  align-content: end;
+  justify-content: start;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(1, 1fr);
+}

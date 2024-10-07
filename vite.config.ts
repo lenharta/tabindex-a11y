@@ -33,7 +33,7 @@ export default defineConfig(({ mode, command }) => {
         alias: {
           '@/*': path.resolve(__dirname, 'src'),
           '@/components': path.resolve(__dirname, 'src/components'),
-          '@/layouts': path.resolve(__dirname, 'src/layouts'),
+          '@/layout': path.resolve(__dirname, 'src/layout'),
           '@/routes': path.resolve(__dirname, 'src/routes'),
           '@/styles': path.resolve(__dirname, 'src/styles'),
           '@/store': path.resolve(__dirname, 'src/store'),
@@ -54,7 +54,7 @@ export default defineConfig(({ mode, command }) => {
           '@/*': path.resolve(__dirname, 'src'),
           '@/components': path.resolve(__dirname, 'src/components'),
           '@/routes': path.resolve(__dirname, 'src/routes'),
-          '@/layouts': path.resolve(__dirname, 'src/layouts'),
+          '@/layout': path.resolve(__dirname, 'src/layout'),
           '@/styles': path.resolve(__dirname, 'src/styles'),
           '@/store': path.resolve(__dirname, 'src/store'),
           '@/shiki': path.resolve(__dirname, 'src/shiki'),

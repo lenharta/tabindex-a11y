@@ -1,0 +1,20 @@
+.tbx-header {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  display: block;
+  position: fixed;
+
+  &-layout {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-inline: 1rem;
+  }
+
+  @supports (backdrop-filter: blur(12px)) {
+    backdrop-filter: blur(12px);
+  }
+}

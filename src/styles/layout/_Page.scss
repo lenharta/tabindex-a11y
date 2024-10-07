@@ -1,0 +1,12 @@
+.tbx-page {
+  display: grid;
+  min-height: 100vh;
+  place-content: start;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+
+  & > section {
+    margin-top: 3.5rem;
+    padding-inline: 1rem;
+  }
+}

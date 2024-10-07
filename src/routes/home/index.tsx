@@ -1,3 +1,4 @@
+import { Hero, Page } from '@/layout';
 import { Button, Snippet } from '@/components';
 import { useThemeDispatch } from '@/store';
 
@@ -15,11 +16,185 @@ const ModeControl = () => {
 
 export const Home: React.FC<{}> = (props) => {
   return (
-    <div {...props}>
-      <h1>Home</h1>
+    <Page {...props}>
+      <Hero>
+        <h1>Home</h1>
+      </Hero>
+
       <Snippet code={sampleCode} />
       <ModeControl />
-    </div>
+
+      <section>
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur libero velit
+          nesciunt pariatur. Recusandae, tenetur numquam! Tempora recusandae, molestias fugiat
+          labore dicta quod cumque nulla. Repellendus in alias pariatur ab?
+        </p>
+      </section>
+
+      <section>
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur libero velit
+          nesciunt pariatur. Recusandae, tenetur numquam! Tempora recusandae, molestias fugiat
+          labore dicta quod cumque nulla. Repellendus in alias pariatur ab?
+        </p>
+      </section>
+
+      <section>
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur libero velit
+          nesciunt pariatur. Recusandae, tenetur numquam! Tempora recusandae, molestias fugiat
+          labore dicta quod cumque nulla. Repellendus in alias pariatur ab?
+        </p>
+      </section>
+
+      <section>
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur libero velit
+          nesciunt pariatur. Recusandae, tenetur numquam! Tempora recusandae, molestias fugiat
+          labore dicta quod cumque nulla. Repellendus in alias pariatur ab?
+        </p>
+      </section>
+
+      <section>
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur libero velit
+          nesciunt pariatur. Recusandae, tenetur numquam! Tempora recusandae, molestias fugiat
+          labore dicta quod cumque nulla. Repellendus in alias pariatur ab?
+        </p>
+      </section>
+
+      <section>
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur libero velit
+          nesciunt pariatur. Recusandae, tenetur numquam! Tempora recusandae, molestias fugiat
+          labore dicta quod cumque nulla. Repellendus in alias pariatur ab?
+        </p>
+      </section>
+
+      <section>
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur libero velit
+          nesciunt pariatur. Recusandae, tenetur numquam! Tempora recusandae, molestias fugiat
+          labore dicta quod cumque nulla. Repellendus in alias pariatur ab?
+        </p>
+      </section>
+
+      <section>
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur libero velit
+          nesciunt pariatur. Recusandae, tenetur numquam! Tempora recusandae, molestias fugiat
+          labore dicta quod cumque nulla. Repellendus in alias pariatur ab?
+        </p>
+      </section>
+
+      <section>
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur libero velit
+          nesciunt pariatur. Recusandae, tenetur numquam! Tempora recusandae, molestias fugiat
+          labore dicta quod cumque nulla. Repellendus in alias pariatur ab?
+        </p>
+      </section>
+
+      <section>
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur libero velit
+          nesciunt pariatur. Recusandae, tenetur numquam! Tempora recusandae, molestias fugiat
+          labore dicta quod cumque nulla. Repellendus in alias pariatur ab?
+        </p>
+      </section>
+
+      <section>
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur libero velit
+          nesciunt pariatur. Recusandae, tenetur numquam! Tempora recusandae, molestias fugiat
+          labore dicta quod cumque nulla. Repellendus in alias pariatur ab?
+        </p>
+      </section>
+
+      <section>
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur libero velit
+          nesciunt pariatur. Recusandae, tenetur numquam! Tempora recusandae, molestias fugiat
+          labore dicta quod cumque nulla. Repellendus in alias pariatur ab?
+        </p>
+      </section>
+
+      <section>
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur libero velit
+          nesciunt pariatur. Recusandae, tenetur numquam! Tempora recusandae, molestias fugiat
+          labore dicta quod cumque nulla. Repellendus in alias pariatur ab?
+        </p>
+      </section>
+
+      <section>
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur libero velit
+          nesciunt pariatur. Recusandae, tenetur numquam! Tempora recusandae, molestias fugiat
+          labore dicta quod cumque nulla. Repellendus in alias pariatur ab?
+        </p>
+      </section>
+
+      <section>
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur libero velit
+          nesciunt pariatur. Recusandae, tenetur numquam! Tempora recusandae, molestias fugiat
+          labore dicta quod cumque nulla. Repellendus in alias pariatur ab?
+        </p>
+      </section>
+
+      <section>
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur libero velit
+          nesciunt pariatur. Recusandae, tenetur numquam! Tempora recusandae, molestias fugiat
+          labore dicta quod cumque nulla. Repellendus in alias pariatur ab?
+        </p>
+      </section>
+
+      <section>
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur libero velit
+          nesciunt pariatur. Recusandae, tenetur numquam! Tempora recusandae, molestias fugiat
+          labore dicta quod cumque nulla. Repellendus in alias pariatur ab?
+        </p>
+      </section>
+
+      <section>
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur libero velit
+          nesciunt pariatur. Recusandae, tenetur numquam! Tempora recusandae, molestias fugiat
+          labore dicta quod cumque nulla. Repellendus in alias pariatur ab?
+        </p>
+      </section>
+
+      <section>
+        <h2>Lorem ipsum dolor sit</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur libero velit
+          nesciunt pariatur. Recusandae, tenetur numquam! Tempora recusandae, molestias fugiat
+          labore dicta quod cumque nulla. Repellendus in alias pariatur ab?
+        </p>
+      </section>
+    </Page>
   );
 };
 
